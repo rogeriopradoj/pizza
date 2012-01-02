@@ -46,8 +46,8 @@ try {
 }
 
 if ( (!isset($_POST['pizza'])) || (!isset($_POST['ingrediente'])) ) {
-    require 'tabela_pizzas_view.php';
-    require 'form_view.php';
+    require 'views/tabela_pizzas_view.php';
+    require 'views/form_view.php';
 } else {
 //    var_dump($_POST); exit;
     // fazer delete na tabela com o mesmo id da pizza
