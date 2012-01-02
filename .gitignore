@@ -1,2 +1,4 @@
 /nbproject/private/
 /nbproject/*
+!data/data.sql
+!data/schema.sql
